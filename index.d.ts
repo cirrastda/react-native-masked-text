@@ -67,7 +67,7 @@ export interface TextInputMaskProps extends Pick<TextInputProps, Exclude<keyof T
 export class TextInputMask extends React.Component<TextInputMaskProps> {}
 
 // TextInputMask Component
-export class TextInputMask2 extends React.Component<TextInputMaskProps> {}
+export class TextInputMaskX extends React.Component<TextInputMaskProps> {}
 
 // TextMask
 export class TextMask extends React.Component<TextInputMaskProps> {}
