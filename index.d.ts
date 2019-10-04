@@ -8,6 +8,7 @@
 
 import * as React from 'react'
 import { TextInput, TextInputProps } from 'react-native'
+import { Input } from 'react-native-elements'
 
 // Type prop of TextInputMask.
 export type TextInputMaskTypeProp =
@@ -64,6 +65,9 @@ export interface TextInputMaskProps extends Pick<TextInputProps, Exclude<keyof T
 
 // TextInputMask Component
 export class TextInputMask extends React.Component<TextInputMaskProps> {}
+
+// TextInputMask Component
+export class TextInputMask2 extends React.Component<TextInputMaskProps> {}
 
 // TextMask
 export class TextMask extends React.Component<TextInputMaskProps> {}
